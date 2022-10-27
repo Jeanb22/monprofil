@@ -1,0 +1,53 @@
+h1{
+	text-align: center;
+}
+
+h3{
+	text-align: left;
+}
+
+.container{
+	width: 700px;
+	margin: 0 auto;
+}
+
+.card-white{
+	background-color:rgb(240, 251, 255);
+	color: rgb(23, 2, 140);
+	padding: 20px;
+	margin: 16px;
+	box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.3);
+	border-radius: 6px;
+	text-align: center;
+}
+
+#card-name{
+	font-size: 54px;
+}
+
+#card-img{
+	background-image: url("images/WED 2022.png");
+	color: rgb(23, 2, 140);
+	background-size: cover;
+	background-position: center;
+}
+
+#card-gradient{
+	color: rgb(23, 2, 140);
+	background-color:: linear-gradient(0deg,blue 0%, green 75%);
+	text-align: left;
+}
+
+
+/* Media queries */
+@media (max-width: 900px){
+	.container{
+		width: 450px;
+	}
+}
+
+@media (max-width: 500px){
+	.container{
+		width: 250px;
+	}
+}
